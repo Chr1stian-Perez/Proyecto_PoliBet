@@ -329,7 +329,7 @@ fun LoginScreen(
                             )
                             Spacer(modifier = Modifier.height(8.dp))
                             Text(
-                                text = "RAMA HCI UX  - Proyecto 2do Bimestre",
+                                text = "🎓 Proyecto 2do Bimestre - App Móviles",
                                 style = MaterialTheme.typography.bodySmall,
                                 color = MaterialTheme.colorScheme.primary,
                                 fontWeight = FontWeight.Medium
