@@ -316,7 +316,7 @@ fun LoginScreen(
                             horizontalAlignment = Alignment.CenterHorizontally
                         ) {
                             Text(
-                                text = "👤 Usuarios de Prueba - Versión HCI",
+                                text = "👤 Usuarios de Prueba",
                                 style = MaterialTheme.typography.titleSmall,
                                 fontWeight = FontWeight.Bold
                             )
