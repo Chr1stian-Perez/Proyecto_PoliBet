@@ -100,7 +100,6 @@ fun LoginScreen(
                 horizontalAlignment = Alignment.CenterHorizontally,
                 verticalArrangement = Arrangement.Center
             ) {
-                // Logo animado
                 val logoScale by animateFloatAsState(
                     targetValue = if (isVisible) 1f else 0f,
                     animationSpec = spring(

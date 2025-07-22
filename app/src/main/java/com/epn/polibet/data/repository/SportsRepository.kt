@@ -444,7 +444,7 @@ class SportsRepository {
                 id = "bx_005",
                 sportId = "boxing",
                 homeTeam = "Mauricio Lopez",
-                awayTeam = "Richard Smith",
+                awayTeam = "Richard Gallegos",
                 league = "Peso Bantam",
                 startTime = currentTime + 36000000,
                 odds = EventOdds(homeWin = 1.5, draw = null, awayWin = 2.5)

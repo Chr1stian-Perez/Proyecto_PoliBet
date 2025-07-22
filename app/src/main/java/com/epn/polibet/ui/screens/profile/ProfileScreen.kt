@@ -214,7 +214,7 @@ fun ProfileScreen(
                     )
 
                     Text(
-                        text = "Desarrollado con Jetpack Compose - Navegation",
+                        text = "Desarrollado con Jetpack Compose",
                         style = MaterialTheme.typography.bodySmall,
                         color = MaterialTheme.colorScheme.primary,
                         fontWeight = FontWeight.Medium
