@@ -100,7 +100,6 @@ fun LoginScreen(
                 horizontalAlignment = Alignment.CenterHorizontally,
                 verticalArrangement = Arrangement.Center
             ) {
-                // Logo animado
                 val logoScale by animateFloatAsState(
                     targetValue = if (isVisible) 1f else 0f,
                     animationSpec = spring(
@@ -317,7 +316,7 @@ fun LoginScreen(
                             horizontalAlignment = Alignment.CenterHorizontally
                         ) {
                             Text(
-                                text = "👤 Usuarios de Prueba",
+                                text = "👤 Usuarios de Prueba - Versión HCI",
                                 style = MaterialTheme.typography.titleSmall,
                                 fontWeight = FontWeight.Bold
                             )
@@ -330,7 +329,7 @@ fun LoginScreen(
                             )
                             Spacer(modifier = Modifier.height(8.dp))
                             Text(
-                                text = "🎓 Proyecto 2do Bimestre - App Móviles",
+                                text = "RAMA HCI UX  - Proyecto 2do Bimestre",
                                 style = MaterialTheme.typography.bodySmall,
                                 color = MaterialTheme.colorScheme.primary,
                                 fontWeight = FontWeight.Medium
