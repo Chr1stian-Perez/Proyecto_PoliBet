@@ -57,7 +57,7 @@ POLIBET es una aplicación movil que simula una plataforma de pronósticos depor
 
 El proyecto sigue el patrón **MVVM (Model-View-ViewModel)** con las siguientes capas:
 
-\`\`\`
+```
 app/
 ├── data/
 │   ├── models/          # Modelos de datos (User, Event, Prediction, etc.)
@@ -68,7 +68,7 @@ app/
 │   ├── theme/          # Configuración de tema y estilos
 │   └── viewmodels/     # ViewModels para lógica de negocio
 └── navigation/         # Configuración de navegación
-\`\`\`
+```
 
 ##  Implementación de Navigation
 
